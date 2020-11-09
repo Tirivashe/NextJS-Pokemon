@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function Home({ pokemon }) {
   return (
     <Layout title="Pokedex in Next">
-      <h1 className="text-4xl mb-8 text-center"> Welcome to The Pokedex</h1>
+      <h1 className="text-4xl mb-8 text-center"> Welcome to The Pokemon Repo</h1>
       <ul>
         {pokemon.map((poke, index) => (
           <li key={index}>
